@@ -59,7 +59,7 @@ lapse_SNOWFALL = 0.0000  # Snowfall % per m (0 to 1)
 static_folder = "./data/static/"
 dem_path = "DEM/n30_e090_3arc_v2.tif"
 shape_path = "Shapefiles/Zhadang_RGI6.shp"
-output_file = "Zhadang_static.nc"
+output_file = "Zhadang_static_test.nc"
 
 [create_static.coords]
 tile = true
