@@ -1,0 +1,6 @@
+#Install a Conda environment for Cosipy
+sudo apt install build-essential
+conda create -n cosipy -c conda-forge python=3.10 gdal=3.9.0 numpy=2.0.0 netcdf4 hdf5 libnetcdf
+conda activate cosipy
+pip install -r requirements.txt
+
